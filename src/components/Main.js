@@ -1,5 +1,5 @@
 require('normalize.css/normalize.css');
-require('styles/App.css');
+require('styles/App.less');
 
 import React from 'react';
 import SearchPanel from './SearchPanel';
@@ -19,7 +19,10 @@ class AppComponent extends React.Component {
         <SearchPanel />
         <SideFilterPanel />
         <SearchResultTopFilter />
-
+        <DateList />
+        <LowPriceCalendar />
+        <SearchResultSummary />
+        <FlightListDetail />
       </div>
     );
   }

@@ -6,11 +6,15 @@ class Header extends React.Component{
   }
 
   render(){
-    return (<ul>
-      <li>首页</li>
-      <li>酒店</li>
-      <li>机票</li>
-    </ul>);
+    return (
+      <div className="header_root">
+        <ul className="nav_root">
+          <li>首页</li>
+          <li>酒店</li>
+          <li>机票</li>
+        </ul>
+    </div>
+    );
   }
 }
 
